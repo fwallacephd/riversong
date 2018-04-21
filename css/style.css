@@ -1,0 +1,89 @@
+* {
+    -ms-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+/* BODY */
+
+/* FONTS */
+/* font-family: 'Roboto Condensed', sans-serif;
+font-family: 'PT Sans Narrow', sans-serif;
+*/
+
+@font-face {
+    font-family: Doctor-Who;
+    src: url(Doctor-Who.ttf);
+}
+
+body {
+    background-color: #003865;
+    background-image:
+        radial-gradient(white, rgba(255,255,255,.2) 2px, transparent 40px),
+        radial-gradient(white, rgba(255,255,255,.15) 1px, transparent 30px),
+        radial-gradient(white, rgba(255,255,255,.1) 2px, transparent 40px),
+        radial-gradient(rgba(255,255,255,.4), rgba(255,255,255,.1) 2px, transparent 30px);
+    background-size: 550px 550px, 350px 350px, 250px 250px, 150px 150px;
+    background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;
+}
+
+/* HEADING */
+
+.river-heading {
+    font-family: Doctor-Who;
+    color: white;
+    font-size: 80px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+.river-sub-heading {
+    font-family: 'PT Sans Narrow', sans-serif;
+    color: white;
+    font-size: 40px;
+    margin-top: 0px;
+}
+
+/* HEADING IMAGE */
+.river-heading-image {
+    border: 5px solid black;
+}
+
+.river-image-caption {
+    font-family: 'PT Sans Narrow', sans-serif;
+    color: white;
+    font-size: 20px;
+}
+
+.take-quiz {
+    background-color: black;
+    color: white;
+}
+
+/* QUESTIONS */
+.question-heading {
+    font-family: Doctor-Who;
+    color: black;
+}
+
+.question-wording {
+    font-family: 'PT Sans Narrow', sans-serif;
+    color: black;
+}
+
+/* QUESTION 1 */
+.answer-title {
+    font-family: 'PT Sans Narrow', sans-serif;
+    color: white;
+}
+
+.episode-answers {
+    font-family: 'PT Sans Narrow', sans-serif;
+    color: black;
+    font-size: 25px;
+}
+
+.question1-submit {
+    background-color: black;
+    color: white;
+}
