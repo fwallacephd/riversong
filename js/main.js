@@ -11,10 +11,11 @@ $(".take-quiz").on("click", function(){
 });
 
 //Question 1
-$(".question1-submit").on("click". function(){
+$(".question1-submit").on("click", function(){
   var answer1 = $("[name=episode]:checked").val();
+  console.log(answer1)
   if (answer1 === "Astronaut") {
-    score += 1;
+    score ++;
     alert("Correct! You have " + score + " point(s) out of 5!")
   } else {
     alert("Oops! That was incorrect. You have " + score + " point(s) out of 5!")
