@@ -17,7 +17,9 @@ $(".question1-submit").on("click", function(){
   if (answer1 === "Astronaut") {
     score ++;
     alert("Correct! You have " + score + " point(s) out of 5!")
+    $("#question1").hide();
   } else {
     alert("Oops! That was incorrect. You have " + score + " point(s) out of 5!")
+    $("#question1").hide();
   }
 });

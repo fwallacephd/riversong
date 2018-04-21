@@ -87,3 +87,22 @@ body {
     background-color: black;
     color: white;
 }
+
+
+/* COPYRIGHT */
+.copyright {
+    font-family: 'PT Sans Narrow', sans-serif;
+    color: black;
+}
+
+.white {
+    color: white;
+}
+
+.twitter-link {
+    color: white;
+}
+
+.twitter-link:hover {
+    color: black;
+}
