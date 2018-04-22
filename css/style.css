@@ -55,6 +55,12 @@ body {
     font-size: 20px;
 }
 
+.your-name {
+    font-family: 'PT Sans Narrow', sans-serif;
+    color: black;
+    font-size: 30px;
+}
+
 .take-quiz {
     background-color: black;
     color: white;
@@ -109,6 +115,45 @@ body {
 }
 
 .question3-submit {
+    background-color: black;
+    color: white;
+}
+
+/* QUESTION 4 */
+.river-angels {
+    border: 5px solid black;
+}
+
+.question4-submit {
+    background-color: black;
+    color: white
+}
+
+/* QUESTION 5 */
+.event-answers {
+    font-family: 'PT Sans Narrow', sans-serif;
+    color: black;
+    font-size: 25px;
+    margin: 2%;
+}
+
+.question5-submit {
+    background-color: black;
+    color: white;
+}
+
+/* SCORE FRAME */
+.score-heading {
+    font-family: Doctor-Who;
+    color: black;
+}
+
+.score-statement {
+    font-family: 'PT Sans Narrow', sans-serif;
+    color: black;
+}
+
+.play-again {
     background-color: black;
     color: white;
 }
