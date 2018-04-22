@@ -81,6 +81,7 @@ body {
     font-family: 'PT Sans Narrow', sans-serif;
     color: black;
     font-size: 25px;
+    margin: 2%;
 }
 
 .question1-submit {
@@ -88,6 +89,29 @@ body {
     color: white;
 }
 
+
+/* QUESTION 2 */
+.river-good-man {
+    border: 5px solid white;
+}
+
+.question2-submit {
+    background-color: black;
+    color: white;
+}
+
+/* QUESTION 3 */
+.weapon-answers {
+    font-family: 'PT Sans Narrow', sans-serif;
+    color: black;
+    font-size: 25px;
+    margin: 2%;
+}
+
+.question3-submit {
+    background-color: black;
+    color: white;
+}
 
 /* COPYRIGHT */
 .copyright {
