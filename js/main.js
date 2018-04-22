@@ -103,12 +103,14 @@ $(".question5-submit").on("click", function(){
     finalScore = (name + ", your final score for this quiz is, " + score + ". You might want to do a River Song marathon.");
   }
   $(".score-statement").append(finalScore);
+  $(".play-again").on("click", function(){
+
+  $("#enter-quiz").show();
+  $(".your-name").show();
+  $(".score").hide();
+});
 });
 
 
-//Play Again
-//$(".play-again").on("click", function(){
 
-  //$("#enter-quiz").show();
-  //$(".your-name").show();
-//});
+
