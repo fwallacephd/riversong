@@ -39,6 +39,7 @@
 
 <div class="container-fluid">
 
+<!-- Heading -->
 <section class="heading">
 <div class="row align-items-center">
   <div class="col-md-12 text-center">
@@ -49,25 +50,30 @@
 </div>
 </section>
 
+
+
+<!-- River's Image -->
 <section id="river-image">
 <div class="row align-items-center">
   <div class="col-md-12 text-center">
-    <img class="river-heading-image img-fluid" src="images/riversong1.jpg" alt="Image of River">
+    <img id="river-header-image" class="river-heading-image img-fluid" src="images/riversong1.jpg" alt="Image of River">
     <p class="river-image-caption">River is played with sass by the actress Alex Kingston</p>
-    <br>
-    <button type="button" class="btn take-quiz">Take the Quiz!</button>
+    <label class="your-name">What is your name? </label><br>
+      <input class="your-name" type="text" name="name"><br><br>
+    <button id="enter-quiz" type="button" class="btn take-quiz">Take the Quiz!</button>
   </div>
 </div>
 </section>
 
 
+<!-- First Question -->
 <section id="question1">
 <div class="row align-items-center">
   <div class="col-md-12 text-center">
     <h1 class="question-heading">Question 1</h1>
     <h3 class="question-wording">In what episode does River say:<br>"Don't worry, I'm quite the screamer. Now there's a spoiler for you."</h3>
     <br>
-    <h3 class="answer-title">Episodes:</h3><br>
+    <h3 class="answer-title">Pick the Episode:</h3><br>
     <input  type="radio" name="episode" value="Silence">
     <label class="episode-answers">Silence in the Library </label>
     <input class="episode-answers" type="radio" name="episode" value="Astronaut">
@@ -77,20 +83,120 @@
     <br>
     <br>
     <button type="button" class="btn question1-submit">Check Your Answer!</button>
-<br>
-<br>
-
-
-
-<br>
-<br>
-<br>
-<br>
-
+    <br>
+    <br>
   </div>
 </div>
 </section>
 
+<!-- Second Question-->
+<section id="question2">
+  <div class="row align-items-center">
+    <div class="col-md-12 text-center">
+     <br>
+      <h1 class="question-heading">Question 2</h1>
+      <h3 class="question-wording">In "A Good Man Goes to War", where does The Doctor take River for her birthday?</h3>
+      <br>
+      <h3 class="answer-title">Select Your Answer:</h3>
+      <select name="location">
+        <option value="1">Raxacoricofallapatorius</option>
+        <option value="2">Space Florida</option>
+        <option value="3">Ice Skating on The Thames at the Frost Fair</option>
+      </select>
+    <br>
+    <br>
+    <button type="button" class="btn question2-submit">Check Your Answer!</button>
+    <br>
+    <br>
+    </div>
+  </div>
+</section>
+
+<!-- Third Question -->
+<section id="question3">
+  <div class="row align-items-center">
+    <div class="col-md-12 text-center">
+     <br>
+      <h1 class="question-heading">Question 3</h1>
+      <h3 class="question-wording">What is River's weapon of choice?</h3>
+      <br>
+      <h3 class="answer-title">Select Your Answer:</h3>
+      <input  type="radio" name="weapon" value="Probe">
+      <label class="weapon-answers">A Sonic Probe</label>
+      <input class="weapon-answers" type="radio" name="weapon" value="Lipstick">
+      <label class="episode-answers">Lipstick</label>
+      <input class="weapon-answers" type="radio" name="wewapon" value="Vortex">
+      <label class="weapon-answers">Vortex Manipulator</label>
+      <br>
+      <br>
+      <button type="button" class="btn question3-submit">Check Your Answer!</button>
+      <br>
+      <br>
+    </div>
+  </div>
+</section>
+
+<!-- Fourth Question -->
+<section id="question4">
+  <div class="row align-items-center">
+    <div class="col-md-12 text-center">
+      <h1 class="question-heading">Question 4</h1>
+      <h3 class="question-wording">Can you name the episode based on this image?</h3>
+      <br>
+      <img class="river-angels img-fluid" src="images/riversong-angels.jpg" alt="River Song and Amy Pond">
+      <br>
+      <br>
+      <h3 class="answer-title">Select the Episode:</h3>
+      <select name="episode2">
+        <option value="1">The Pandorica Opens</option>
+        <option value="2">Time of Angels</option>
+        <option value="3">The Wedding of River Song</option>
+      </select>
+      <br>
+      <br>
+      <button type="button" class="btn question4-submit">Check Your Answer!</button>
+      <br>
+      <br>
+    </div>
+  </div>
+</section>
+
+
+<!-- Fifth Question -->
+<section id="question5">
+  <div class="row align-items-center">
+    <div class="col-md-12 text-center">
+     <br>
+      <h1 class="question-heading">Question 5</h1>
+      <h3 class="question-wording">Which of these events in River's diary was never shown, only disucssed?</h3>
+      <br>
+      <h3 class="answer-title">Select Your Answer:</h3>
+      <input  type="radio" name="events" value="Jim">
+      <label class="event-answers">Jim the Fish</label>
+      <input class="event-answers" type="radio" name="events" value="Pandorica">
+      <label class="event-answers">The Pandorica</label>
+      <input class="event-answers" type="radio" name="events" value="Crash">
+      <label class="event-answers">Crash of the Byzantium</label>
+      <br>
+      <br>
+      <button type="button" class="btn question5-submit">Check Your Answer!</button>
+      <br>
+      <br>
+    </div>
+  </div>
+</section>
+
+<section class="score">
+  <div class="row align-items-center">
+    <div class="col-md-12 text-center">
+      <h1 class="score-heading">Final Score:</h1>
+      <h3 class="score-statement"></h3>
+      <br>
+      <br>
+      <button type="button" class="btn play-again">Play Again?</button>
+    </div>
+  </div>
+</section>
 
 <div class="row copyright">
  <br>
