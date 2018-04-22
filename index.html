@@ -11,9 +11,7 @@
 
     <title>River Song Quiz</title>
 
-    <!-- Bootstrap, Fonts, Font Awesome, CSS -->
-    <!-- Font Awesome & other icons-->
-    <script defer src="https://use.fontawesome.com/releases/v5.0.10/js/all.js" integrity="sha384-slN8GvtUJGnv6ca26v8EzVaR9DC58QEwsIk9q1QXdCU8Yu8ck/tL/5szYlBbqmS+" crossorigin="anonymous"></script>
+    <!-- Bootstrap, Fonts, CSS -->
 
     <!--Bootstrap-->
     <!-- Latest compiled and minified CSS -->
@@ -41,7 +39,7 @@
 
 <!-- Heading -->
 <section class="heading">
-<div class="row align-items-center">
+<div class="row">
   <div class="col-md-12 text-center">
     <br>
     <p class="river-heading">River Song</p>
@@ -51,12 +49,11 @@
 </section>
 
 
-
 <!-- River's Image -->
 <section id="river-image">
 <div class="row align-items-center">
   <div class="col-md-12 text-center">
-    <img id="river-header-image" class="river-heading-image img-fluid" src="images/riversong1.jpg" alt="Image of River">
+    <img id="river-header-image" class="river-heading-image img-fluid" src="images/riversong1.jpg" alt="Image of Alex Kingston">
     <p class="river-image-caption">River is played with sass by the actress Alex Kingston</p>
     <label class="your-name">What is your name? </label><br>
       <input class="your-name" type="text" name="name"><br><br>
@@ -68,17 +65,17 @@
 
 <!-- First Question -->
 <section id="question1">
-<div class="row align-items-center">
+<div class="row">
   <div class="col-md-12 text-center">
-    <h1 class="question-heading">Question 1</h1>
+    <h1 class="question-heading animated flash">Question 1</h1>
     <h3 class="question-wording">In what episode does River say:<br>"Don't worry, I'm quite the screamer. Now there's a spoiler for you."</h3>
     <br>
     <h3 class="answer-title">Pick the Episode:</h3><br>
     <input  type="radio" name="episode" value="Silence">
     <label class="episode-answers">Silence in the Library </label>
-    <input class="episode-answers" type="radio" name="episode" value="Astronaut">
+    <input type="radio" name="episode" value="Astronaut">
     <label class="episode-answers">The Impossible Astronaut </label>
-    <input class="episode-answers" type="radio" name="episode" value="Name">
+    <input type="radio" name="episode" value="Name">
     <label class="episode-answers">The Name of the Doctor </label>
     <br>
     <br>
@@ -91,10 +88,9 @@
 
 <!-- Second Question-->
 <section id="question2">
-  <div class="row align-items-center">
+  <div class="row">
     <div class="col-md-12 text-center">
-     <br>
-      <h1 class="question-heading">Question 2</h1>
+      <h1 class="question-heading animated flash">Question 2</h1>
       <h3 class="question-wording">In "A Good Man Goes to War", where does The Doctor take River for her birthday?</h3>
       <br>
       <h3 class="answer-title">Select Your Answer:</h3>
@@ -103,29 +99,29 @@
         <option value="2">Space Florida</option>
         <option value="3">Ice Skating on The Thames at the Frost Fair</option>
       </select>
-    <br>
-    <br>
-    <button type="button" class="btn question2-submit">Check Your Answer!</button>
-    <br>
-    <br>
+      <br>
+      <br>
+      <button type="button" class="btn question2-submit">Check Your Answer!</button>
+      <br>
+      <br>
     </div>
   </div>
 </section>
 
 <!-- Third Question -->
 <section id="question3">
-  <div class="row align-items-center">
+  <div class="row">
     <div class="col-md-12 text-center">
      <br>
-      <h1 class="question-heading">Question 3</h1>
+      <h1 class="question-heading animated flash">Question 3</h1>
       <h3 class="question-wording">What is River's weapon of choice?</h3>
       <br>
       <h3 class="answer-title">Select Your Answer:</h3>
       <input  type="radio" name="weapon" value="Probe">
       <label class="weapon-answers">A Sonic Probe</label>
-      <input class="weapon-answers" type="radio" name="weapon" value="Lipstick">
+      <input type="radio" name="weapon" value="Lipstick">
       <label class="episode-answers">Lipstick</label>
-      <input class="weapon-answers" type="radio" name="wewapon" value="Vortex">
+      <input type="radio" name="wewapon" value="Vortex">
       <label class="weapon-answers">Vortex Manipulator</label>
       <br>
       <br>
@@ -138,9 +134,9 @@
 
 <!-- Fourth Question -->
 <section id="question4">
-  <div class="row align-items-center">
+  <div class="row">
     <div class="col-md-12 text-center">
-      <h1 class="question-heading">Question 4</h1>
+      <h1 class="question-heading animated flash">Question 4</h1>
       <h3 class="question-wording">Can you name the episode based on this image?</h3>
       <br>
       <img class="river-angels img-fluid" src="images/riversong-angels.jpg" alt="River Song and Amy Pond">
@@ -164,10 +160,10 @@
 
 <!-- Fifth Question -->
 <section id="question5">
-  <div class="row align-items-center">
+  <div class="row">
     <div class="col-md-12 text-center">
      <br>
-      <h1 class="question-heading">Question 5</h1>
+      <h1 class="question-heading animated flash">Question 5</h1>
       <h3 class="question-wording">Which of these events in River's diary was never shown, only disucssed?</h3>
       <br>
       <h3 class="answer-title">Select Your Answer:</h3>
@@ -189,11 +185,13 @@
 <section class="score">
   <div class="row align-items-center">
     <div class="col-md-12 text-center">
-      <h1 class="score-heading">Final Score:</h1>
+     <div class="">
+      <h1 class="score-heading animated flash">Final Score:</h1>
       <h3 class="score-statement"></h3>
       <br>
       <br>
-      <button type="button" class="btn play-again">Play Again?</button>
+      <h1 class="thanks animated rollIn">Thanks for Playing!</h1>
+     </div>
     </div>
   </div>
 </section>
@@ -203,7 +201,7 @@
    <div class="col-md-12">
     <br>
     <br>
-     <p class="copyright text-center"><strong>Made with a <span class="white">Sonic Screwdriver</span> by Faith H. Wallace, Ph.D., &copy;  2018 • Follow Me <i class="fab fa-twitter"></i> </strong><a class="twitter-link" href="https://twitter.com/fwallacephd" data-show-count="false">@fwallacephd</a></p>
+     <p class="copyright text-center"><strong>Made with a <span class="white"> Sonic Screwdriver </span> by Faith H. Wallace, Ph.D., &copy;  2018 • Follow Me <i class="fab fa-twitter"></i> </strong><a class="twitter-link" href="https://twitter.com/fwallacephd" data-show-count="false">@fwallacephd</a></p>
    </div>
 
   <br>

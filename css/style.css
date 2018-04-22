@@ -70,6 +70,7 @@ body {
 .question-heading {
     font-family: Doctor-Who;
     color: black;
+    font-size: 60px;
 }
 
 .question-wording {
@@ -155,6 +156,11 @@ body {
 
 .play-again {
     background-color: black;
+    color: white;
+}
+
+.thanks {
+    font-family: 'PT Sans Narrow', sans-serif;
     color: white;
 }
 
